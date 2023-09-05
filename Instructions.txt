@@ -1,0 +1,10 @@
+Instructions
+============
+
+In order for this HTML page to work you must open it in a live server environment as follows:-
+
+1. Open the HTML page in Visual Studio Code.
+2. Press F!. 
+3. Choose the first option "Live Server: Open with Live Srever".
+
+
