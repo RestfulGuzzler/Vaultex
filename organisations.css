@@ -1,0 +1,87 @@
+
+body {
+  overflow-y: scroll; /* Show vertical scrollbar */  
+}
+
+.noResults {
+  font-size: 16px;
+  font-weight:bolder;    
+}
+
+table.results {
+  width: 80% !important;
+  margin: 5px auto;
+}  
+
+table.search {
+  width: 25% !important;
+  margin: 5px auto;
+  border: 0px solid black;  
+}  
+
+table.details {
+  border: 0px solid black;  
+} 
+
+tr.results:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.OrganisationName {
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: left;  
+  padding: 2px;
+}
+
+.Button_Employees {
+  font-size: 16px;
+  width: 50px;
+  font-weight: bolder;
+  text-align: left;  
+  padding: 2px;
+}
+
+.OrganisationAddress {
+  font-size: 12px;
+  text-align: left;  
+  padding: 2px;
+}
+
+td {
+  vertical-align: text-top;
+  padding: 2px;
+}
+
+td.detailsLegend {
+  text-align: right;    
+  font-size: 12px;
+  font-weight: lighter;
+  width: 150px;
+  border: 0px solid black;
+}
+
+td.detailsValue {
+  text-align: left;    
+  font-size: 14px;
+  font-weight: bolder;
+  width: 300px;
+  border: 0px solid black;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);  
+}
+
+.modal-content {
+  width: 370px;
+}
+
+.modal-map {
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;    
+}
+
